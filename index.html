@@ -1,0 +1,215 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, intital-scale=1.0">
+    <title>Steven Ng - Portfolio</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <!--close icon, timestamp 1:33:37-->
+                </ul>
+                <!--menu icon, timestamp 1:33:37-->
+            </nav>
+            <div class="header-text">
+                <p>UI/UX Designer</p>
+                <h1>Hi, I'm <span>Steven Ng</span> <br />From Cleveland, Ohio</h1>
+            </div>
+        </div>
+    </div>
+
+    <!--about me section-->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Nam metus tellus, iaculis tincidunt tortor in, blandit
+                        ultrices ante. Vestibulum ornare auctor justo. Cras laoreet
+                        lectus at odio sodales vestibulum. Phasellus pulvinar sem
+                        at gravida auctor. Praesent ipsum nisi, hendrerit non purus
+                        et, vehicula pellentesque enim. Sed faucibus quam egestas
+                        tellus finibus, non ullamcorper tortor varius.
+                    </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p> <!--on click enables clickable link/content-->
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <!--for the skills section-->
+                        <ul>
+                            <li><span>UI/UX</span><br />Designing Web/App Interfaces</li>
+                            <li><span>Web Development</span><br />Web app developments</li>
+                            <li><span>App Development</span><br />Building Android/iOS apps</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <!--for the Experience section-->
+                        <ul>
+                            <li><span>2021 - Current</span><br />UI/UX Design Training at ET Institute</li>
+                            <li><span>Web Development</span><br />Team lead at StarApp LLC.</li>
+                            <li><span>App Development</span><br />UI/UX Design Exeutive at Coin Digital Ltd.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <!--for the Education section-->
+                        <ul>
+                            <li><span>2016</span><br />College</li>
+                            <li><span>2016</span><br />High School</li>
+                            <li><span>2014</span><br />gradeschool</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--services section-->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <h2>Web Design</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Nam metus tellus, iaculis tincidunt tortor in, blandit ultrices ante.
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <h2>UI/UX Design</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Nam metus tellus, iaculis tincidunt tortor in, blandit ultrices ante.
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <h2>App Design</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Nam metus tellus, iaculis tincidunt tortor in, blandit ultrices ante.
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- portfolio-->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png" />
+                    <div class="layer">
+                        <h3>Social Media </h3>
+                        <p>This here to learn more about me! Instragram, LinkedIn, HandShake</p>
+                        <a href="#"></a> <!-- add image icon or similar-->
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png" />
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>This here to learn more about me! Instragram, LinkedIn, HandShake</p>
+                        <a href="#"></a> <!-- add image icon or similar-->
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png" />
+                    <div class="layer">
+                        <h3>Online App</h3>
+                        <p>This here to learn more about me! Instragram, LinkedIn, HandShake</p>
+                        <a href="#"></a> <!-- add image icon or similar-->
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+    <!--contact section-->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p>contact@example.com</p><!--add image icon here timestamp 1:17:20-->
+                    <p>123-345-6789</p><!--add image icon here-->
+                    <div class="social-icons">
+                        <a href="https://instagram.com"></a> <!--add image icon here-->
+                        <a href=""></a> <!--add image icon here-->
+                        <a href=""></a> <!--add image icon here-->
+                    </div>
+                    <a href="images/my-cv.pdf" target="_blank" class="btn btn2">View Resume</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Steven. </p> <!--add image icon here-->
+        </div> 
+    </div>
+
+
+
+
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        /*this script allows the clickable contents of skills, expeirence, and eduaction to be removed.
+        when user clicks the links, the description contents will disappear.*/
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            //this enables to click back and forth through the skills, exp, edu links to display descriptions
+            event.currentTarget.classList.add("active-link"); //this will display the active color bar when clicked on.
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+
+    </script>
+
+
+
+</body>
+<!-- around timestamp 47:00, instead of icons, use created illustrator icons-->
+</html>
+
+
